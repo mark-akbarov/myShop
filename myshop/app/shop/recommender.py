@@ -1,6 +1,6 @@
 import redis
 from django.conf import settings
-from .models import Product
+from shop.models import Product
 
 
 #connect to redis

@@ -1,9 +1,9 @@
 from django.urls import reverse
 from django.shortcuts import render, redirect
-from .tasks import order_created
-from .models import OrderItem
-from .forms import OrderCreateForm
-from .tasks import order_created
+from orders.tasks import order_created
+from orders.models import OrderItem
+from orders.forms import OrderCreateForm
+from orders.tasks import order_created
 from cart.cart import Cart
 
 
